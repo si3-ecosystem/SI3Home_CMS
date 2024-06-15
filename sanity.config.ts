@@ -37,7 +37,6 @@ export default defineConfig({
         EcosystemSpotlight,
         ourMission,
         onboard,
-        pricing,
       ]),
     }),
     singletonPlugin([
@@ -52,7 +51,6 @@ export default defineConfig({
       EcosystemSpotlight.name,
       ourMission.name,
       onboard.name,
-      pricing.name,
     ]),
     visionTool(),
     muxInput(),

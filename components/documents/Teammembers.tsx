@@ -49,11 +49,6 @@ export default defineType({
       name: 'email',
       title: 'Email',
       type: 'string',
-      validation: (rule) =>
-        rule.required().custom((email) => ({
-          message: 'Please enter a valid email address.',
-          isValid: /^\S+@\S+\.\S+$/.test(email || ''),
-        })),
     }),
   ],
   preview: {
