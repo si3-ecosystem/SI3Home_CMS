@@ -3,7 +3,7 @@ import {IoIosInformationCircleOutline} from 'react-icons/io'
 
 export default defineType({
   name: 'about',
-  title: 'About',
+  title: 'Si Her Live',
   type: 'document',
   icon: () => <IoIosInformationCircleOutline />,
 

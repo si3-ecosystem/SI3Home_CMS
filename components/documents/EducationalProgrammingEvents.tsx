@@ -43,7 +43,7 @@ export default defineType({
     }),
     defineField({
       name: 'presenters',
-      title: 'Presenters',
+      title: 'Event Speakers',
       type: 'array',
       of: [{type: 'reference', to: [{type: 'presenters'}]}],
       options: {

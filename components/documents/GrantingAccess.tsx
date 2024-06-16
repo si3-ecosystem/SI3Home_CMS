@@ -22,7 +22,7 @@ export default defineType({
     }),
     defineField({
       name: 'builders',
-      title: 'Builders',
+      title: 'Headlining Speakers ( Builders )',
       type: 'array',
       of: [{type: 'reference', to: [{type: 'builders'}]}],
       options: {

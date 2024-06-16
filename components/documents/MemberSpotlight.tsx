@@ -3,7 +3,7 @@ import {FaUsersViewfinder} from 'react-icons/fa6'
 
 export default defineType({
   name: 'memberSpotlight',
-  title: 'Member Spotlight',
+  title: 'Co-Activator Spotlight',
   type: 'document',
   icon: () => <FaUsersViewfinder />,
 
@@ -21,7 +21,7 @@ export default defineType({
     }),
     defineField({
       name: 'teammembers',
-      title: 'Team Members',
+      title: 'Members',
       type: 'array',
       of: [{type: 'reference', to: [{type: 'teammembers'}]}],
     }),

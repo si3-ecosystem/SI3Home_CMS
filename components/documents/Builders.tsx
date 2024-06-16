@@ -3,7 +3,7 @@ import {GiPodiumWinner} from 'react-icons/gi'
 
 export default defineType({
   name: 'builders',
-  title: 'Builders',
+  title: 'Builders (Headlining Speakers)',
   type: 'document',
   icon: () => <GiPodiumWinner />,
 

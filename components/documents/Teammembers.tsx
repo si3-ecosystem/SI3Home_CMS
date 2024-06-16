@@ -3,7 +3,7 @@ import {GiTeamUpgrade} from 'react-icons/gi'
 
 export default defineType({
   name: 'teammembers',
-  title: 'Team Members',
+  title: 'Members (Connect, Collaboration and more)',
   type: 'document',
   icon: () => <GiTeamUpgrade />,
 
