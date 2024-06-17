@@ -15,10 +15,15 @@ export default defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: 'blockContent',
+      name: 'description',
       title: 'Description',
       type: 'text',
-   
+    }),
+    defineField({
+      name: 'date',
+      title: 'Date',
+      type: 'string',
+      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'builders',

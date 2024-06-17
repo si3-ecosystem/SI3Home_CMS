@@ -10,8 +10,8 @@ export default defineType({
   fields: [
     defineField({
       name: 'summitDate',
-      title: 'Summit Date',
-      type: 'datetime',
+      title: 'Date',
+      type: 'string',
       validation: (rule) => rule.required(),
     }),
     defineField({
