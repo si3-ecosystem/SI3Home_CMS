@@ -1,7 +1,5 @@
 import blockContent from './blockContent'
-import category from './category'
-import post from './post'
-import author from './author'
+
 import Utils from '../components/documents/Utils'
 import Hero from '../components/documents/Hero'
 import button from '../components/objects/button'
@@ -22,6 +20,7 @@ import ourMission from '../components/documents/ourMission'
 import testimonials from '../components/documents/testimonials'
 import onboard from '../components/documents/onboard'
 import pricing from '../components/documents/pricing'
+import register from '../components/documents/register'
 
 export const schemaTypes = [
   Utils,
@@ -33,6 +32,7 @@ export const schemaTypes = [
   Sihercoactive,
   Web3Brand,
   EducationalProgrammingEvents,
+  register,
   Builders,
   button,
   ButtonPreview,

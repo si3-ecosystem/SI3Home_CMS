@@ -17,6 +17,7 @@ import ourMission from './components/documents/ourMission'
 import onboard from './components/documents/onboard'
 import pricing from './components/documents/pricing'
 import myLogo from './components/shared/Logo'
+import register from './components/documents/register'
 
 export default defineConfig({
   name: 'default',
@@ -37,6 +38,7 @@ export default defineConfig({
         EcosystemSpotlight,
         ourMission,
         onboard,
+        register,
       ]),
     }),
     singletonPlugin([
@@ -51,6 +53,7 @@ export default defineConfig({
       EcosystemSpotlight.name,
       ourMission.name,
       onboard.name,
+      register.name,
     ]),
     visionTool(),
     muxInput(),
