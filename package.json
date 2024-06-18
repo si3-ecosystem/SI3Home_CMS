@@ -1,5 +1,5 @@
 {
-  "name": "karameleon",
+  "name": "si3",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
@@ -9,6 +9,7 @@
     "start": "sanity start",
     "build": "sanity build",
     "deploy": "sanity deploy",
+    "undeploy": "sanity undeploy",
     "deploy-graphql": "sanity graphql deploy"
   },
   "keywords": [

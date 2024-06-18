@@ -21,7 +21,7 @@ import register from './components/documents/register'
 
 export default defineConfig({
   name: 'default',
-  title: 'SIHER',
+  title: 'si3',
   projectId: 'h4ttr3aq',
   dataset: 'production',
   plugins: [
