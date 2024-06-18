@@ -68,6 +68,28 @@ export default defineType({
       ],
     }),
     defineField({
+      name: 'seoTitle',
+      title: 'Title',
+      type: 'string',
+      group: 'seo',
+    }),
+    defineField({
+      name: 'seoLogo',
+      title: 'Seo Logo',
+      type: 'image',
+      group: 'seo',
+      options: {
+        hotspot: true, // Enables image cropping and focus point
+      },
+      fields: [
+        {
+          name: 'alt',
+          type: 'string',
+          title: 'Alternative text',
+        },
+      ],
+    }),
+    defineField({
       name: 'overview',
       group: 'seo',
       description: 'Used for the <meta> description tag for SEO.',
