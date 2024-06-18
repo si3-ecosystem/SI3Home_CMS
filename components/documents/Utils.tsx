@@ -32,6 +32,24 @@ export default defineType({
       group: 'content',
       validation: (rule) => rule.required(),
     }),
+    defineField({
+      name: 'insta',
+      title: 'Instagram',
+      type: 'string',
+      group: 'content',
+    }),
+    defineField({
+      name: 'twitter',
+      title: 'X (Twitter)',
+      type: 'string',
+      group: 'content',
+    }),
+    defineField({
+      name: 'other',
+      title: 'Mask',
+      type: 'string',
+      group: 'content',
+    }),
 
     defineField({
       name: 'logo',
