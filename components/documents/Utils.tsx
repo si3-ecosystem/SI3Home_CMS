@@ -46,7 +46,13 @@ export default defineType({
     }),
     defineField({
       name: 'other',
-      title: 'Mask',
+      title: 'Common Ground',
+      type: 'string',
+      group: 'content',
+    }),
+    defineField({
+      name: 'warpcast',
+      title: 'Warpcast',
       type: 'string',
       group: 'content',
     }),
