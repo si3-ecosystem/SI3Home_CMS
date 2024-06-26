@@ -50,6 +50,11 @@ export default defineType({
       title: 'Web3 Page Name',
       type: 'string',
     }),
+    defineField({
+      name: 'link',
+      title: 'Web3 Page Link',
+      type: 'string',
+    }),
   ],
   preview: {
     select: {
