@@ -21,7 +21,7 @@ export default defineType({
     }),
     defineField({
       name: 'teammembers',
-      title: 'Members',
+      title: 'Member Headshot',
       type: 'array',
       of: [{type: 'reference', to: [{type: 'teammembers'}]}],
     }),

@@ -47,7 +47,7 @@ export default defineType({
     }),
     defineField({
       name: 'email',
-      title: 'Email',
+      title: 'Web3 Page Name',
       type: 'string',
     }),
   ],
