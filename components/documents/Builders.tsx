@@ -9,6 +9,12 @@ export default defineType({
 
   fields: [
     defineField({
+      name: 'topic',
+      title: 'Topic',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
       name: 'summitDate',
       title: 'Date',
       type: 'string',
