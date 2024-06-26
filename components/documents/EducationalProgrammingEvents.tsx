@@ -16,7 +16,7 @@ export default defineType({
     }),
     defineField({
       name: 'image',
-      title: 'Speaker Headshot',
+      title: 'Event Image',
       type: 'image',
       options: {
         hotspot: true,
@@ -30,6 +30,7 @@ export default defineType({
       ],
       validation: (rule) => rule.required(),
     }),
+
     defineField({
       name: 'title',
       title: 'Title',

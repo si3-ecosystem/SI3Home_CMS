@@ -21,7 +21,7 @@ export default defineType({
     }),
     defineField({
       name: 'Events',
-      title: 'Events',
+      title: 'Speaker Headshot',
       type: 'array',
       of: [{type: 'reference', to: [{type: 'educationalProgrammingEvents'}]}],
       options: {
