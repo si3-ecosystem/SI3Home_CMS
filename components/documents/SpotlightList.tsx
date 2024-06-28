@@ -7,7 +7,7 @@ export default defineType({
   fields: [
     defineField({
       name: 'title',
-      title: 'Title',
+      title: 'Presentation Name',
       type: 'string',
       validation: (rule) => rule.required(),
     }),
@@ -47,11 +47,23 @@ export default defineType({
       ],
     }),
     defineField({
-      name: 'teamMember',
-      title: 'Team Member',
-      type: 'reference',
-      to: [{type: 'teammembers'}],
+      name: 'presenterName',
+      title: 'Presenter Name',
+      type: 'string',
+      validation: (rule) => rule.required(),
     }),
+    defineField({
+      name: 'presenterTitle',
+      title: 'Presenter Title',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    // defineField({
+    //   name: 'teamMember',
+    //   title: 'Team Member',
+    //   type: 'reference',
+    //   to: [{type: 'teammembers'}],
+    // }),
   ],
   preview: {
     select: {
