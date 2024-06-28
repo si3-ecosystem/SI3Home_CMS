@@ -1,5 +1,5 @@
 import {defineType, defineField} from 'sanity'
-import { VscFeedback } from "react-icons/vsc";
+import {VscFeedback} from 'react-icons/vsc'
 
 export default defineType({
   name: 'testimonials',
@@ -36,8 +36,14 @@ export default defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'companyName',
+      title: 'Company Name',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
       name: 'link',
-      title: 'Link',
+      title: 'Company Url',
       type: 'url',
       validation: (Rule) =>
         Rule.uri({

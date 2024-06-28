@@ -12,13 +12,11 @@ export default defineType({
       name: 'topic',
       title: 'Topic',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'summitDate',
       title: 'Date',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'image',
@@ -52,12 +50,7 @@ export default defineType({
       ],
       validation: (rule) => rule.required(),
     }),
-    defineField({
-      name: 'title',
-      title: 'Title',
-      type: 'string',
-      validation: (rule) => rule.required(),
-    }),
+
     defineField({
       name: 'name',
       title: 'Name',
