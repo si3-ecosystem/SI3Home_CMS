@@ -33,6 +33,12 @@ export default defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'stayConnected',
+      title: 'Stay Connected',
+      type: 'string',
+      group: 'content',
+    }),
+    defineField({
       name: 'linkedIn',
       title: 'LinkedIn',
       type: 'string',
