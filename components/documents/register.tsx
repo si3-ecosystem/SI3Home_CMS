@@ -30,21 +30,21 @@ export default defineType({
       title: 'Streaming Live',
       type: 'string',
     }),
-    defineField({
-      name: 'apple',
-      title: 'Apple Link',
-      type: 'string',
-    }),
-    defineField({
-      name: 'google',
-      title: 'Google Link',
-      type: 'string',
-    }),
-    defineField({
-      name: 'office',
-      title: 'Office 365',
-      type: 'string',
-    }),
+    // defineField({
+    //   name: 'apple',
+    //   title: 'Apple Link',
+    //   type: 'string',
+    // }),
+    // defineField({
+    //   name: 'google',
+    //   title: 'Google Link',
+    //   type: 'string',
+    // }),
+    // defineField({
+    //   name: 'office',
+    //   title: 'Office 365',
+    //   type: 'string',
+    // }),
   ],
   preview: {
     select: {

@@ -27,7 +27,7 @@ export default defineType({
     }),
     defineField({
       name: 'builders',
-      title: 'Headlining Speakers ( Builders )',
+      title: 'Event Speakers',
       type: 'array',
       of: [{type: 'reference', to: [{type: 'builders'}]}],
       options: {

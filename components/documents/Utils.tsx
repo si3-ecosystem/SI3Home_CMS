@@ -33,8 +33,8 @@ export default defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: 'insta',
-      title: 'Instagram',
+      name: 'linkedIn',
+      title: 'LinkedIn',
       type: 'string',
       group: 'content',
     }),
