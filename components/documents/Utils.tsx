@@ -62,6 +62,12 @@ export default defineType({
       type: 'string',
       group: 'content',
     }),
+    defineField({
+      name: 'mediakit',
+      title: 'Media kit',
+      type: 'string',
+      group: 'content',
+    }),
 
     defineField({
       name: 'logo',
