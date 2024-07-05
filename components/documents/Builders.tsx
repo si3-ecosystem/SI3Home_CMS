@@ -48,7 +48,6 @@ export default defineType({
           title: 'Alternative text',
         },
       ],
-      validation: (rule) => rule.required(),
     }),
 
     defineField({
