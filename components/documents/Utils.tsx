@@ -22,8 +22,7 @@ export default defineType({
       icon: () => <Emoji symbol="🔍" size={'1.25em'} />,
     },
   ],
-  // Uncomment below to have edits publish automatically as you type
-  // liveEdit: true,
+
   fields: [
     defineField({
       name: 'title',
@@ -34,7 +33,7 @@ export default defineType({
     }),
     defineField({
       name: 'stayConnected',
-      title: 'Stay Connected',
+      title: 'Stay Connected Url',
       type: 'string',
       group: 'content',
     }),
