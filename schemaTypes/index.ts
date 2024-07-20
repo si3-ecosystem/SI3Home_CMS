@@ -21,6 +21,7 @@ import testimonials from '../components/documents/testimonials'
 import onboard from '../components/documents/onboard'
 import pricing from '../components/documents/pricing'
 import register from '../components/documents/register'
+import cards from './cards'
 
 export const schemaTypes = [
   Utils,
@@ -48,4 +49,5 @@ export const schemaTypes = [
   //   author,
   //   category,
   blockContent,
+  cards
 ]
