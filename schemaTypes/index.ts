@@ -22,6 +22,8 @@ import onboard from '../components/documents/onboard'
 import pricing from '../components/documents/pricing'
 import register from '../components/documents/register'
 import cards from './cards'
+import memberPolicy from './memberPolicy'
+import privacyPolicy from './privacyPolicy'
 
 export const schemaTypes = [
   Utils,
@@ -49,5 +51,7 @@ export const schemaTypes = [
   //   author,
   //   category,
   blockContent,
-  cards
+  cards,
+  memberPolicy,
+  privacyPolicy
 ]
