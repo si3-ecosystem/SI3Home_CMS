@@ -24,6 +24,7 @@ import register from '../components/documents/register'
 import cards from './cards'
 import memberPolicy from './memberPolicy'
 import privacyPolicy from './privacyPolicy'
+import communityButton from './communityButton'
 
 export const schemaTypes = [
   Utils,
@@ -52,6 +53,7 @@ export const schemaTypes = [
   //   category,
   blockContent,
   cards,
+  communityButton,
   memberPolicy,
   privacyPolicy
 ]
